@@ -10,16 +10,16 @@ public class registerPagepom {
 	
 	@FindBy (xpath = "//input[@name='firstname']") private WebElement fName; 
     @FindBy (xpath = "//input[@name='lastname']") private WebElement lName;
-    @FindBy (xpath = "//input[@id='u_0_g_pG']") private WebElement Email;
-    @FindBy (xpath = "//input[@id='u_0_j_ja']") private WebElement ReEmail;
-    @FindBy (xpath = "//input[@id='password_step_input']") private WebElement Password; 
-    @FindBy (xpath = "//select[@id='day']") private WebElement day;
-    @FindBy (xpath = "//select[@id='month']") private WebElement month;
-    @FindBy (xpath = "//select[@id='month']") private WebElement year;
-    @FindBy (xpath = "//label[normalize-space()='Female']") private WebElement Fgender;
-    @FindBy (xpath = "//label[normalize-space()='Male']") private WebElement Mgender;
-    @FindBy (xpath = "//label[normalize-space()='Custom']") private WebElement Cgender;
-    @FindBy (xpath = "//button[@id='u_0_s_ro']") private WebElement submit;
+    @FindBy (xpath = "//input[@name='reg_email__']") private WebElement Email;
+    @FindBy (xpath = "//input[@name='reg_email_confirmation__']") private WebElement ReEmail;
+    @FindBy (xpath = "//input[@name='reg_passwd__']") private WebElement Password; 
+    @FindBy (xpath = "//select[@name='birthday_day']") private WebElement day;
+    @FindBy (xpath = "//select[@name='birthday_month']") private WebElement month;
+    @FindBy (xpath = "//select[@name='birthday_year']") private WebElement year;
+    @FindBy (css = "label[for='u_0_4_Zi']") private WebElement Fgender;
+    @FindBy (css = "label[for='u_0_5_HP']") private WebElement Mgender;
+    @FindBy (css = "label[for='u_0_6_zk']") private WebElement Cgender;
+    @FindBy (css = "#u_0_s_ro") private WebElement submit;
     
     
     public registerPagepom(WebDriver driver){
