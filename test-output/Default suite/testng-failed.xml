@@ -5,7 +5,6 @@
     <classes>
       <class name="testClass.registerpageTestCases">
         <methods>
-          <include name="RegisterPageTestCases"/>
           <include name="RegisterPageTestCases1"/>
           <include name="RefreshApplication"/>
           <include name="CloseBrowser"/>
