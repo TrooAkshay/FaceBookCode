@@ -19,7 +19,7 @@ public class registerPagepom {
     @FindBy (css = "label[for='u_0_4_Zi']") private WebElement Fgender;
     @FindBy (css = "label[for='u_0_5_HP']") private WebElement Mgender;
     @FindBy (css = "label[for='u_0_6_zk']") private WebElement Cgender;
-    @FindBy (css = "#u_0_s_ro") private WebElement submit;
+    @FindBy (xpath = "//button[@type='submit'][@xpath='1']") private WebElement submit;
     
     
     public registerPagepom(WebDriver driver){

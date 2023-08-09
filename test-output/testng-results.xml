@@ -1,88 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22795" started-at="2023-08-03T18:53:02 IST" finished-at="2023-08-03T18:53:25 IST">
+  <suite name="Default suite" duration-ms="15395" started-at="2023-08-07T17:03:27 IST" finished-at="2023-08-07T17:03:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22795" started-at="2023-08-03T18:53:02 IST" finished-at="2023-08-03T18:53:25 IST">
+    <test name="Default test" duration-ms="15395" started-at="2023-08-07T17:03:27 IST" finished-at="2023-08-07T17:03:43 IST">
       <class name="testClass.registerpageTestCases">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="OpenBrowser" is-config="true" duration-ms="3077" started-at="2023-08-03T18:53:02 IST" finished-at="2023-08-03T18:53:05 IST">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="OpenBrowser" is-config="true" duration-ms="5794" started-at="2023-08-07T17:03:27 IST" finished-at="2023-08-07T17:03:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="OpenApplication" is-config="true" duration-ms="1789" started-at="2023-08-03T18:53:05 IST" finished-at="2023-08-03T18:53:07 IST">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="OpenApplication" is-config="true" duration-ms="1736" started-at="2023-08-07T17:03:33 IST" finished-at="2023-08-07T17:03:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApplication -->
-        <test-method status="FAIL" signature="RegisterPageTestCases()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="RegisterPageTestCases" duration-ms="5757" started-at="2023-08-03T18:53:07 IST" finished-at="2023-08-03T18:53:13 IST">
-          <exception class="java.lang.UnsupportedOperationException">
-            <message>
-              <![CDATA[You may only deselect options of a multi-select]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.UnsupportedOperationException: You may only deselect options of a multi-select
-at org.openqa.selenium.support.ui.Select.deselectByVisibleText(Select.java:272)
-at pomClass.registerPagepom.SelectDate(registerPagepom.java:53)
-at testClass.registerpageTestCases.RegisterPageTestCases(registerpageTestCases.java:52)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.UnsupportedOperationException -->
+        <test-method status="PASS" signature="RegisterPageTestCases()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="RegisterPageTestCases" duration-ms="5775" started-at="2023-08-07T17:03:35 IST" finished-at="2023-08-07T17:03:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterPageTestCases -->
-        <test-method status="PASS" signature="RefreshApplication()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="RefreshApplication" is-config="true" duration-ms="12" started-at="2023-08-03T18:53:13 IST" finished-at="2023-08-03T18:53:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RefreshApplication -->
-        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="OpenApplication" is-config="true" duration-ms="672" started-at="2023-08-03T18:53:13 IST" finished-at="2023-08-03T18:53:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenApplication -->
-        <test-method status="FAIL" signature="RegisterPageTestCases1()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="RegisterPageTestCases1" duration-ms="5717" started-at="2023-08-03T18:53:13 IST" finished-at="2023-08-03T18:53:19 IST">
-          <exception class="java.lang.UnsupportedOperationException">
-            <message>
-              <![CDATA[You may only deselect options of a multi-select]]>
-            </message>
+        <test-method status="FAIL" signature="RefreshApplication()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="RefreshApplication" is-config="true" duration-ms="2011" started-at="2023-08-07T17:03:41 IST" finished-at="2023-08-07T17:03:43 IST">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.UnsupportedOperationException: You may only deselect options of a multi-select
-at org.openqa.selenium.support.ui.Select.deselectByVisibleText(Select.java:272)
-at pomClass.registerPagepom.SelectDate(registerPagepom.java:53)
-at testClass.registerpageTestCases.RegisterPageTestCases1(registerpageTestCases.java:66)
+              <![CDATA[java.lang.NullPointerException
+at testClass.registerpageTestCases.RefreshApplication(registerpageTestCases.java:49)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -107,15 +59,63 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.UnsupportedOperationException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterPageTestCases1 -->
-        <test-method status="PASS" signature="RefreshApplication()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="RefreshApplication" is-config="true" duration-ms="11" started-at="2023-08-03T18:53:19 IST" finished-at="2023-08-03T18:53:19 IST">
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RefreshApplication -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="CloseBrowser" is-config="true" duration-ms="5704" started-at="2023-08-03T18:53:19 IST" finished-at="2023-08-03T18:53:25 IST">
+        <test-method status="SKIP" signature="OpenApplication()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="OpenApplication" is-config="true" duration-ms="-1691408023140" started-at="2023-08-07T17:03:43 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="SKIP" signature="RegisterPageTestCases1()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="RegisterPageTestCases1" duration-ms="0" started-at="2023-08-07T17:03:43 IST" finished-at="2023-08-07T17:03:43 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at testClass.registerpageTestCases.RefreshApplication(registerpageTestCases.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterPageTestCases1 -->
+        <test-method status="SKIP" signature="RefreshApplication()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="RefreshApplication" is-config="true" duration-ms="-1691408023145" started-at="2023-08-07T17:03:43 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshApplication -->
+        <test-method status="SKIP" signature="CloseBrowser()[pri:0, instance:testClass.registerpageTestCases@2eda0940]" name="CloseBrowser" is-config="true" duration-ms="-1691408023147" started-at="2023-08-07T17:03:43 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
